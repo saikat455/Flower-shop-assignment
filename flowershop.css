@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pageOne{
+    display: flex;
+    width: 100%;
+    background-color: #FDF6F8;
+    justify-content: space-around;
+}
+.pageOne img{
+    margin-left: -20rem;
+}
+.pic1{
+    height: 300px;
+    width: 300px;
+}
+
+.pageOneDetails{
+    align-items: center;
+    padding: 45px 0 0 0;
+}
+.details1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size:50px;
+}
+
+.btn{
+    background-color: rgb(229, 84, 115);
+    border: none;
+    padding: 13px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+.pageThirdDetails{
+    text-align: center;
+    align-items: center;
+}
+.pageThird{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FDF6F8;
+    padding: 25px;
+}
+.picThird img {
+    margin-left: -20rem;
+    width: 210px;
+    height: 250px;
+}
+.page3rdDetail{
+    margin-bottom: 20px;
+}
+.thirdPicdetail{
+    width: 50%;
+    margin: auto;
+}
+
+.picdetail{
+    width: 50%;
+    margin: auto; 
+}
+.pageForth{
+    text-align: center;
+    margin: 20px;
+    margin-top: 70px;
+}
+.h2{
+    font-size: 30px;
+}
+.instagram{
+    margin-bottom: 20px;
+}
+.all-img{
+    margin-top: 30px;
+}
+.all-img img{
+    height: 230px;
+    width: 220px;
+    margin:0 0 0 10px;
+}
+.picdetails{
+    
+    width: 50%;
+    margin: auto;
+    color: rgb(103, 98, 92);
+}
+.pageForthBox{
+    margin-top: 75px;
+    background-image: url(Rectangle\ 9.png);
+    height: 270px;
+    width: 76%;
+    margin-left: 12%;
+    border-radius: 3px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* margin: auto; */
+    /* margin-left: 2px; */
+   /* margin-right: 100px; */
+    /* margin-right: 15px; */
+    /* padding: 20px; */
+    /* margin-top: -100px; */
+}
+.emailBox{
+    margin-top: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 4px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+.insidePageForthBox{
+    /* display: flex;
+    align-items: center; */
+}
+.btn2{
+    padding: 14px;
+    border: none;
+    background-color: rgb(229, 84, 115);
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    /* height: 40px; */
+}
