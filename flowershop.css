@@ -13,7 +13,7 @@
     margin-left: -20rem;
 }
 .pic1{
-    height: 300px;
+    height: 100%;
     width: 300px;
 }
 
@@ -43,7 +43,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #FDF6F8;
+    background-color: #d70641;
+    border: none;
     padding: 25px;
 }
 .picThird img {
@@ -60,7 +61,7 @@
 }
 
 .picdetail{
-    width: 50%;
+    width: 35%;
     margin: auto; 
 }
 .pageForth{
@@ -83,9 +84,12 @@
     margin:0 0 0 10px;
 }
 .picdetails{
-    
-    width: 50%;
+    width: 35%;
     margin: auto;
+    color: rgb(103, 98, 92);
+}
+.picdetails1{
+    margin-top: 20px;
     color: rgb(103, 98, 92);
 }
 .pageForthBox{
@@ -98,6 +102,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
+    /* margin-bottom: 50px; */
     /* align-items: center; */
     /* text-align: center; */
     /* margin: auto; */
@@ -128,4 +133,33 @@
     border-radius: 5px;
     margin-left: 5px;
     /* height: 40px; */
+}
+.flower{
+    color: red;
+    
+}
+.FlowerShop{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: white;
+}
+.footerDetail{
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.footer{
+   /* margin: auto; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    /* color: white; */
+    padding: 8px 0 100px 0;
+}
+.h6{
+    margin-top: 20px;
+    color: rgb(103, 98, 92);
+    /* margin-bottom: 50px; */
 }
