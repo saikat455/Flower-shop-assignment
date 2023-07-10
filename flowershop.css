@@ -4,6 +4,7 @@
 }
 
 .pageOne{
+    padding: 25px 0 0 0;
     display: flex;
     width: 100%;
     background-color: #FDF6F8;
@@ -19,7 +20,7 @@
 
 .pageOneDetails{
     align-items: center;
-    padding: 45px 0 0 0;
+    padding: 15px 0 0 0;
 }
 .details1{
     margin-bottom: 20px;
@@ -45,7 +46,7 @@
     justify-content: space-around;
     background-color: #d70641;
     border: none;
-    padding: 25px;
+    padding: 40px;
 }
 .picThird img {
     margin-left: -20rem;
@@ -150,13 +151,14 @@
     color: white;
 }
 .footer{
+    margin-top: 80px;
    /* margin: auto; */
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: black;
     /* color: white; */
-    padding: 8px 0 100px 0;
+    padding: 8px 0 90px 0;
 }
 .h6{
     margin-top: 20px;
