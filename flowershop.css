@@ -65,6 +65,9 @@
     width: 35%;
     margin: auto; 
 }
+.instagram{
+    font-size: 27px;
+}
 .pageForth{
     text-align: center;
     margin: 20px;
@@ -93,11 +96,13 @@
     margin-top: 20px;
     color: rgb(103, 98, 92);
 }
+
 .pageForthBox{
     margin-top: 75px;
     background-image: url(Rectangle\ 9.png);
     height: 270px;
     width: 76%;
+    
     margin-left: 12%;
     border-radius: 3px;
     justify-content: center;
@@ -122,10 +127,7 @@
     background-color: white;
     border-radius: 5px;
 }
-.insidePageForthBox{
-    /* display: flex;
-    align-items: center; */
-}
+
 .btn2{
     padding: 14px;
     border: none;
