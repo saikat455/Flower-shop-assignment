@@ -22,6 +22,10 @@
     align-items: center;
     padding: 15px 0 0 0;
 }
+.btn:hover, .btn2:hover{
+    background-color: greenyellow;
+    color: white;
+}
 .details1{
     margin-bottom: 20px;
     font-weight: bold;
@@ -56,15 +60,15 @@
 .page3rdDetail{
     margin-bottom: 20px;
 }
-.thirdPicdetail{
-    width: 50%;
+.picdetail, .thirdPicdetail, .pageTwoDetail{
+    width: 35%;
     margin: auto;
 }
 
-.picdetail{
+/* .picdetail{
     width: 35%;
     margin: auto; 
-}
+} */
 .instagram{
     font-size: 27px;
 }
@@ -81,6 +85,7 @@
 }
 .all-img{
     margin-top: 30px;
+    /* width: 90%; */
 }
 .all-img img{
     height: 230px;
@@ -102,9 +107,9 @@
     background-image: url(Rectangle\ 9.png);
     height: 270px;
     width: 76%;
-    
+    /* max-width: 76%; */
     margin-left: 12%;
-    border-radius: 3px;
+    border-radius: 5px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -149,7 +154,7 @@
 .footerDetail{
     width: 35%;
     margin: auto;
-    text-align: center;
+    /* text-align: center; */
     color: white;
 }
 .footer{
@@ -166,4 +171,35 @@
     margin-top: 20px;
     color: rgb(103, 98, 92);
     /* margin-bottom: 50px; */
+}
+.pageTwo{
+    text-align: center;
+    margin-top: 70px;
+}
+.photos img{
+    height: 150px;
+    width: 150px;
+}
+.photoBox{
+    /* margin: 0 0 0 10px; */
+    margin: auto;
+    gap: -10px;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50% 0 0;
+    border: 1px solid;
+    border-color: black;
+}
+.pageTwoDetail{
+    color: rgb(103, 98, 92);
+    margin-top: 20px;
+
+}
+.photos{
+    margin-top: 30px;
+    /* text-align: center; */
+    display:flex
 }
