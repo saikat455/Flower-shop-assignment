@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: Lato; */
 }
 .logo img{
     height: 110px;
@@ -16,23 +15,23 @@
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-left: 100px;
+    margin-left: 160px;
 }
 .navLink{
     display: flex;
-    gap: 40px;
-
+    gap: 30px;
+    font-weight: 700;
+    font-size: 18px;
 }
 .navLink a, .log-sign a{
-    color: white;
+    color: black;
     padding: 10px;
-    background-color: rgb(107, 107, 218);
     border: 0 solid;
     border-radius: 5px;
     text-decoration: none;
 }
 .navLink a:hover{
-    background-color: rgb(53, 79, 12);
+    text-decoration: underline greenyellow;
 }
 .log-sign{
     display: flex;
@@ -47,17 +46,7 @@
     color: white;
     background-color: rgb(214, 23, 23);
 }
-/* .log-sign a{
-    color: white;
-    padding: 10px;
-    background-color: rgb(107, 107, 218);
-    border: 0 solid;
-    border-radius: 5px;
-    text-decoration: none;
-} */
-/* .navBarlink1, .navBarlink2, .navBarlink3{
-    text-decoration: none;
-} */
+
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -123,11 +112,6 @@ body{
     width: 35%;
     margin: auto;
 }
-
-/* .picdetail{
-    width: 35%;
-    margin: auto; 
-} */
 .instagram{
     font-size: 27px;
 }
@@ -148,13 +132,10 @@ body{
     display: flex;
     justify-content: center;
     gap: 18px;
-    
-    /* width: 90%; */
 }
 .all-img img{
     height: 230px;
     width: 220px;
-    /* margin:0 0 0 10px; */
 }
 .picdetails{
     width: 35%;
@@ -171,7 +152,6 @@ body{
     background-image: url(Rectangle\ 9.png);
     height: 270px;
     width: 76%;
-    /* max-width: 76%; */
     margin-left: 12%;
     border-radius: 5px;
     justify-content: center;
@@ -195,11 +175,9 @@ body{
     color: white;
     border-radius: 5px;
     margin-left: 5px;
-    /* height: 40px; */
 }
 .flower{
     color: red;
-    
 }
 .FlowerShop{
     margin-top: 80px;
@@ -209,25 +187,20 @@ body{
 .footerDetail{
     width: 35%;
     margin: auto;
-    /* text-align: center; */
     color: rgb(210, 201, 201);
     font-size: 12px;
-    /* font-weight: 100px; */
 }
 .footer{
     margin-top: 80px;
-   /* margin: auto; */
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: black;
-    /* color: white; */
     padding: 8px 0 90px 0;
 }
 .h6{
     margin-top: 20px;
     color: rgb(103, 98, 92);
-    /* margin-bottom: 50px; */
 }
 .pageTwo{
     text-align: center;
@@ -238,7 +211,6 @@ body{
 .pageTwoDetail{
     color: rgb(103, 98, 92);
     margin-top: 20px;
-
 }
  .photos{ 
     justify-content: center;
@@ -248,16 +220,12 @@ body{
     gap: 17px;
 }
 .photos .photoBox img{
-    
-    /* margin: 0 0 0 10px; */
     border-radius: 50% 50% 0 0;
     border: none;
-    /* border-color: black; */
     padding-inline: 20px;
     padding-top: 10px;
     height: 300px;
     width: 250px;
-    /* margin: auto; */
 }
 .photos .photoBox1 img{
     background-color: rgb(242, 222, 232);
@@ -269,35 +237,16 @@ body{
     background-color: rgb(228,236,220);
 }
 .pageTwoBox{
-    
     background-color: #F4F4F4;
-    /* border: none; */
-    /* margin-right: 10px; */
-    /* width: 500px; */
-    /* margin-inline: 27%; */
     border: 0px solid;
-    /* width: 60%; */
-    /* height: 120px;
-    width: 700px; */
     width: 67%;
     margin: auto;
     padding: 30px;
     margin-top: 60px;
     display: flex;
     justify-content: space-around;
-    /* justify-content: center; */
     align-items: center;
-    /* text-align: center; */
-    /* margin: auto */
-    /* gap: 35px; */
-    
-    /* justify-content: space-around; */
-    /* margin: 0 0 0 40px; */
 }
-
-/* .pageTwoBox1, .pageTwoBox2{
-    margin-right: 30px;
-} */
 .pageTwoBox img{
     height: 50px;
     width: 50px;
